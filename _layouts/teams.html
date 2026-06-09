@@ -30,7 +30,11 @@ bodyClass: "page-teams"
                 </div>
                 {% endif %}
                 <div class="team-meta">
+                    {% if team.title == "Jonas Köhler" or team.title == "Kea Nasler" or team.title == "Nadine Janßen" %}
+                    <h2 class="team-name">{{ team.title }}</h2>
+                    {% else %}
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    {% endif %}
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
@@ -52,7 +56,11 @@ bodyClass: "page-teams"
                 </div>
                 {% endif %}
                 <div class="team-meta">
+                    {% if team.title == "Jonas Köhler" or team.title == "Kea Nasler" or team.title == "Nadine Janßen" %}
+                    <h2 class="team-name">{{ team.title }}</h2>
+                    {% else %}
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    {% endif %}
                     <p class="team-description">{{ team.jobtitle }}</p>
                 </div>
             </div>

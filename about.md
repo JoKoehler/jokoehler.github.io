@@ -5,9 +5,7 @@ description: Über uns
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Seit mehr als vier Jahrzehnten steht Chairly für hochwertige Holzstühle, die traditionelles Handwerk mit zeitlosem Design verbinden. Was einst als kleine Schreinerei begann, ist heute ein Familienunternehmen, das Qualität, Nachhaltigkeit und Langlebigkeit in den Mittelpunkt stellt.
 
 ![Accounting Services](/images/will-suddreth-o54RjF-C7xo-unsplash.jpg)
 # Unternehmensgeschichte

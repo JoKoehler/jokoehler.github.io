@@ -24,6 +24,9 @@ jobs:
         ruby-version: '3.1'
         bundler-cache: true
 
+    - name: Add platform to Gemfile.lock
+      run: bundle lock --add-platform x86_64-linux --add-platform x64-mingw-ucrt
+
     - name: Build Jekyll site
       run: bundle exec jekyll build
 

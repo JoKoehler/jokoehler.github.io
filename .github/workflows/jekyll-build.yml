@@ -27,8 +27,8 @@ jobs:
     - name: Remove and regenerate Gemfile.lock
       run: |
         rm -f Gemfile.lock
-        bundle install --platforms x86_64-linux
-        bundle lock --add-platform x64-mingw-ucrt
+        bundle install
+        bundle lock --add-platform x86_64-linux
 
     - name: Build Jekyll site
       run: bundle exec jekyll build

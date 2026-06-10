@@ -1,5 +1,5 @@
 main:
-  - name: "Home"
+  - name: "Nachhaltigkeit"
     url: "/services/"
     weight: 2
   - name: "Team"
@@ -13,7 +13,7 @@ main:
     weight: 5
 
 footer:
-  - name: "Home"
+  - name: "Nachhaltigkeit"
     url: "/"
     weight: 1
   - name: "Impressum"
